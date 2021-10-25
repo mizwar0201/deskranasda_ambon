@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Coffee - Free Bootstrap 4 Template by Colorlib</title>
+    <title>deskranasda ambon</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -31,26 +31,18 @@
   <body>
   	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Deskranasda<small>AMBON</small></a>
+	      <a class="navbar-brand" href="#">Deskranasda<small>AMBON</small></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="index.html" class="nav-link">BERANDA</a></li>
-	          <li class="nav-item"><a href="menu.html" class="nav-link">TENTANG DEKRANASDA</a></li>
-	          <li class="nav-item"><a href="services.html" class="nav-link">BERITA</a></li>
-	          <li class="nav-item"><a href="blog.html" class="nav-link">KEGIATAN</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">JADWAL</a></li>
-	          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="room.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PRODUK</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown04">
-              	<a class="dropdown-item" href="shop.html">Shop</a>
-                <a class="dropdown-item" href="product-single.html">Single Product</a>
-                <a class="dropdown-item" href="room.html">Cart</a>
-                <a class="dropdown-item" href="checkout.html">Checkout</a>
-              </div>
-            </li>
+	          <li class="nav-item active"><a href="<?php echo base_url(); ?>index.php/home" class="nav-link">BERANDA</a></li>
+	          <li class="nav-item"><a href="<?php echo base_url(); ?>index.php/tampilan/tentang" class="nav-link">TENTANG DEKRANASDA</a></li>
+	          <li class="nav-item"><a href="<?php echo base_url(); ?>index.php/tampilan/berita" class="nav-link">BERITA</a></li>
+	          <li class="nav-item"><a href="<?php echo base_url(); ?>index.php/tampilan/kegiatan" class="nav-link">KEGIATAN</a></li>
+	          <li class="nav-item"><a href="<?php echo base_url(); ?>index.php/tampilan/jadwal" class="nav-link">JADWAL</a></li>
+	          <li class="nav-item"><a href="<?php echo base_url(); ?>index.php/tampilan/produk" class="nav-link">PRODUK</a></li>
 	          <li class="nav-item"><a href="contact.html" class="nav-link">KONTAK</a></li>
 	        </ul>
 	      </div>
@@ -59,7 +51,7 @@
     <!-- END nav -->
 
     <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background-image: url(assets/gambar/gambar1.jpg);">
+      <div class="slider-item" style="background-image: url(<?php echo base_url('assets/gambar/gambar1.jpg)'); ?>;">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
@@ -74,7 +66,7 @@
         </div>
       </div>
 
-      <div class="slider-item" style="background-image: url(assets/gambar/gambar2.jpg);">
+      <div class="slider-item" style="background-image: url(<?php echo base_url('assets/gambar/gambar2.jpg)'); ?>;">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
@@ -89,7 +81,7 @@
         </div>
       </div>
 
-      <div class="slider-item" style="background-image: url(assets/images/bg_3.jpg);">
+      <div class="slider-item" style="background-image: url(<?php echo base_url('assets/gambar/produk1.jpg)'); ?>;">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
@@ -140,7 +132,7 @@
     </section>
 
     <section class="ftco-about d-md-flex">
-    	<div class="one-half img" style="background-image: url(assets/gambar/widya.jpg);"></div>
+    	<div class="one-half img" style="background-image: url(<?php echo base_url('assets/gambar/widya.jpg)'); ?>;"></div>
     	<div class="one-half ftco-animate">
     		<div class="overlap">
 	        <div class="heading-section ftco-animate ">
@@ -155,7 +147,7 @@
     </section>
 
 <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background-image: url(assets/gambar/gambar1.jpg);">
+      <div class="slider-item" style="background-image: url(<?php echo base_url('assets/gambar/gambar1.jpg)'); ?>;">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
@@ -171,7 +163,7 @@
         </div>
       </div>
 
-      <div class="slider-item" style="background-image: url(assets/gambar/gambar2.jpg);">
+      <div class="slider-item" style="background-image: url(<?php echo base_url('assets/gambar/gambar2.jpg)'); ?>;">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
@@ -187,7 +179,7 @@
         </div>
       </div>
 
-      <div class="slider-item" style="background-image: url(assets/images/bg_3.jpg);">
+      <div class="slider-item" style="background-image: url(<?php echo base_url('assets/gambar/produk1.jpg)'); ?>;">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
@@ -204,7 +196,7 @@
       </div>
     </section>
 
-    <section class="ftco-counter ftco-bg-dark img" id="section-counter" style="background-image: url(assets/images/bg_2.jpg);" data-stellar-background-ratio="0.5">
+    <section class="ftco-counter ftco-bg-dark img" id="section-counter" style="background-image: url(<?php echo base_url('assets/gambar/bg_2.jpg)'); ?>;" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
       <div class="container">
         <div class="row justify-content-center">
@@ -265,7 +257,7 @@
         <div class="row">
         	<div class="col-md-3">
         		<div class="menu-entry">
-    					<a href="#" class="img" style="background-image: url(assets/images/menu-1.jpg);"></a>
+    					<a href="#" class="img" style="background-image: url(<?php echo base_url('assets/gambar/menu-1.jpg)'); ?>;"></a>
     					<div class="text text-center pt-4">
     						<h3><a href="#">Coffee Capuccino</a></h3>
     						<p>A small river named Duden flows by their place and supplies</p>
@@ -276,7 +268,7 @@
         	</div>
         	<div class="col-md-3">
         		<div class="menu-entry">
-    					<a href="#" class="img" style="background-image: url(assets/images/menu-2.jpg);"></a>
+    					<a href="#" class="img" style="background-image: url(<?php echo base_url('assets/gambar/menu2.jpg)'); ?>;"></a>
     					<div class="text text-center pt-4">
     						<h3><a href="#">Coffee Capuccino</a></h3>
     						<p>A small river named Duden flows by their place and supplies</p>
@@ -287,7 +279,7 @@
         	</div>
         	<div class="col-md-3">
         		<div class="menu-entry">
-    					<a href="#" class="img" style="background-image: url(assets/images/menu-3.jpg);"></a>
+    					<a href="#" class="img" style="background-image: url(<?php echo base_url('assets/gambar/menu-3.jpg)'); ?>;"></a>
     					<div class="text text-center pt-4">
     						<h3><a href="#">Coffee Capuccino</a></h3>
     						<p>A small river named Duden flows by their place and supplies</p>
@@ -298,7 +290,7 @@
         	</div>
         	<div class="col-md-3">
         		<div class="menu-entry">
-    					<a href="#" class="img" style="background-image: url(assets/images/menu-4.jpg);"></a>
+    					<a href="#" class="img" style="background-image: url(<?php echo base_url('assets/gambar/menu-4.jpg)'); ?>;"></a>
     					<div class="text text-center pt-4">
     						<h3><a href="#">Coffee Capuccino</a></h3>
     						<p>A small river named Duden flows by their place and supplies</p>
@@ -316,28 +308,28 @@
     	<div class="container-wrap">
     		<div class="row no-gutters">
 					<div class="col-md-3 ftco-animate">
-						<a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(assets/images/gallery-1.jpg);">
+						<a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(<?php echo base_url('assets/gambar/gallery-1.jpg)'); ?>;">
 							<div class="icon mb-4 d-flex align-items-center justify-content-center">
     						<span class="icon-search"></span>
     					</div>
 						</a>
 					</div>
 					<div class="col-md-3 ftco-animate">
-						<a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(assets/images/gallery-2.jpg);">
+						<a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(<?php echo base_url('assets/gambar/gallery-2.jpg)'); ?>;">
 							<div class="icon mb-4 d-flex align-items-center justify-content-center">
     						<span class="icon-search"></span>
     					</div>
 						</a>
 					</div>
 					<div class="col-md-3 ftco-animate">
-						<a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(assets/images/gallery-3.jpg);">
+						<a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(<?php echo base_url('assets/gambar/gallery-3.jpg)'); ?>;">
 							<div class="icon mb-4 d-flex align-items-center justify-content-center">
     						<span class="icon-search"></span>
     					</div>
 						</a>
 					</div>
 					<div class="col-md-3 ftco-animate">
-						<a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(assets/images/gallery-4.jpg);">
+						<a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(<?php echo base_url('assets/gambar/gallery-4.jpg)'); ?>;">
 							<div class="icon mb-4 d-flex align-items-center justify-content-center">
     						<span class="icon-search"></span>
     					</div>
@@ -376,7 +368,7 @@
 		              	<div class="row">
 		              		<div class="col-md-4 text-center">
 		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/dish-1.jpg);"></a>
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(<?php echo base_url('assets/gambar/dish-1.jpg)'); ?>;"></a>
 		              				<div class="text">
 		              					<h3><a href="#">Grilled Beef</a></h3>
 		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
@@ -387,7 +379,7 @@
 		              		</div>
 		              		<div class="col-md-4 text-center">
 		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/dish-2.jpg);"></a>
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(<?php echo base_url('assets/gambar/dish-2.jpg)'); ?>;"></a>
 		              				<div class="text">
 		              					<h3><a href="#">Grilled Beef</a></h3>
 		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
@@ -398,7 +390,7 @@
 		              		</div>
 		              		<div class="col-md-4 text-center">
 		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/dish-3.jpg);"></a>
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(<?php echo base_url('assets/gambar/dish-3.jpg)'); ?>;"></a>
 		              				<div class="text">
 		              					<h3><a href="#">Grilled Beef</a></h3>
 		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
@@ -493,100 +485,20 @@
     	</div>
     </section>
 
-    <section class="ftco-section img" id="ftco-testimony" style="background-image: url(images/bg_1.jpg);"  data-stellar-background-ratio="0.5">
-    	<div class="overlay"></div>
-	    <div class="container">
-	      <div class="row justify-content-center mb-5">
-	        <div class="col-md-7 heading-section text-center ftco-animate">
-	        	<span class="subheading">Testimony</span>
-	          <h2 class="mb-4">Customers Says</h2>
-	          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-	        </div>
-	      </div>
-	    </div>
-	    <div class="container-wrap">
-	      <div class="row d-flex no-gutters">
-	        <div class="col-lg align-self-sm-end ftco-animate">
-	          <div class="testimony">
-	             <blockquote>
-	                <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small.&rdquo;</p>
-	              </blockquote>
-	              <div class="author d-flex mt-4">
-	                <div class="image mr-3 align-self-center">
-	                  <img src="images/person_1.jpg" alt="">
-	                </div>
-	                <div class="name align-self-center">Louise Kelly <span class="position">Illustrator Designer</span></div>
-	              </div>
-	          </div>
-	        </div>
-	        <div class="col-lg align-self-sm-end">
-	          <div class="testimony overlay">
-	             <blockquote>
-	                <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
-	              </blockquote>
-	              <div class="author d-flex mt-4">
-	                <div class="image mr-3 align-self-center">
-	                  <img src="images/person_2.jpg" alt="">
-	                </div>
-	                <div class="name align-self-center">Louise Kelly <span class="position">Illustrator Designer</span></div>
-	              </div>
-	          </div>
-	        </div>
-	        <div class="col-lg align-self-sm-end ftco-animate">
-	          <div class="testimony">
-	             <blockquote>
-	                <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small  line of blind text by the name. &rdquo;</p>
-	              </blockquote>
-	              <div class="author d-flex mt-4">
-	                <div class="image mr-3 align-self-center">
-	                  <img src="images/person_3.jpg" alt="">
-	                </div>
-	                <div class="name align-self-center">Louise Kelly <span class="position">Illustrator Designer</span></div>
-	              </div>
-	          </div>
-	        </div>
-	        <div class="col-lg align-self-sm-end">
-	          <div class="testimony overlay">
-	             <blockquote>
-	                <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however.&rdquo;</p>
-	              </blockquote>
-	              <div class="author d-flex mt-4">
-	                <div class="image mr-3 align-self-center">
-	                  <img src="images/person_2.jpg" alt="">
-	                </div>
-	                <div class="name align-self-center">Louise Kelly <span class="position">Illustrator Designer</span></div>
-	              </div>
-	          </div>
-	        </div>
-	        <div class="col-lg align-self-sm-end ftco-animate">
-	          <div class="testimony">
-	            <blockquote>
-	              <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small  line of blind text by the name. &rdquo;</p>
-	            </blockquote>
-	            <div class="author d-flex mt-4">
-	              <div class="image mr-3 align-self-center">
-	                <img src="images/person_3.jpg" alt="">
-	              </div>
-	              <div class="name align-self-center">Louise Kelly <span class="position">Illustrator Designer</span></div>
-	            </div>
-	          </div>
-	        </div>
-	      </div>
-	    </div>
-	  </section>
+    
 
     <section class="ftco-section">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section ftco-animate text-center">
-            <h2 class="mb-4">Recent from blog</h2>
+            <h2 class="mb-4">Berita Terbaru</h2>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
           </div>
         </div>
         <div class="row d-flex">
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+              <a href="blog-single.html" class="block-20" style="background-image: url(<?php echo base_url('assets/gambar/image_1.jpg)'); ?>;">
               </a>
               <div class="text py-4 d-block">
               	<div class="meta">
@@ -601,7 +513,7 @@
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+              <a href="blog-single.html" class="block-20" style="background-image: url(<?php echo base_url('assets/gambar/image_1.jpg)'); ?>;">
               </a>
               <div class="text py-4 d-block">
               	<div class="meta">
@@ -616,7 +528,7 @@
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+              <a href="blog-single.html" class="block-20" style="background-image: url('assets/images/image_3.jpg');">
               </a>
               <div class="text py-4 d-block">
               	<div class="meta">
