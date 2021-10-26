@@ -257,7 +257,7 @@
         <div class="row">
         	<div class="col-md-3">
         		<div class="menu-entry">
-    					<a href="#" class="img" style="background-image: url(<?php echo base_url('assets/gambar/menu-1.jpg)'); ?>;"></a>
+    					<a href="#" class="img" style="background-image: url(<?php echo base_url('assets/images/menu-1.jpg)'); ?>;"></a>
     					<div class="text text-center pt-4">
     						<h3><a href="#">Coffee Capuccino</a></h3>
     						<p>A small river named Duden flows by their place and supplies</p>
@@ -268,7 +268,7 @@
         	</div>
         	<div class="col-md-3">
         		<div class="menu-entry">
-    					<a href="#" class="img" style="background-image: url(<?php echo base_url('assets/gambar/menu2.jpg)'); ?>;"></a>
+    					<a href="#" class="img" style="background-image: url(<?php echo base_url('assets/images/menu-2.jpg)'); ?>;"></a>
     					<div class="text text-center pt-4">
     						<h3><a href="#">Coffee Capuccino</a></h3>
     						<p>A small river named Duden flows by their place and supplies</p>
@@ -279,7 +279,7 @@
         	</div>
         	<div class="col-md-3">
         		<div class="menu-entry">
-    					<a href="#" class="img" style="background-image: url(<?php echo base_url('assets/gambar/menu-3.jpg)'); ?>;"></a>
+    					<a href="#" class="img" style="background-image: url(<?php echo base_url('assets/images/menu-3.jpg)'); ?>;"></a>
     					<div class="text text-center pt-4">
     						<h3><a href="#">Coffee Capuccino</a></h3>
     						<p>A small river named Duden flows by their place and supplies</p>
@@ -290,7 +290,7 @@
         	</div>
         	<div class="col-md-3">
         		<div class="menu-entry">
-    					<a href="#" class="img" style="background-image: url(<?php echo base_url('assets/gambar/menu-4.jpg)'); ?>;"></a>
+    					<a href="#" class="img" style="background-image: url(<?php echo base_url('assets/images/menu-4.jpg)'); ?>;"></a>
     					<div class="text text-center pt-4">
     						<h3><a href="#">Coffee Capuccino</a></h3>
     						<p>A small river named Duden flows by their place and supplies</p>
@@ -308,28 +308,28 @@
     	<div class="container-wrap">
     		<div class="row no-gutters">
 					<div class="col-md-3 ftco-animate">
-						<a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(<?php echo base_url('assets/gambar/gallery-1.jpg)'); ?>;">
+						<a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(<?php echo base_url('assets/images/gallery-1.jpg)'); ?>;">
 							<div class="icon mb-4 d-flex align-items-center justify-content-center">
     						<span class="icon-search"></span>
     					</div>
 						</a>
 					</div>
 					<div class="col-md-3 ftco-animate">
-						<a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(<?php echo base_url('assets/gambar/gallery-2.jpg)'); ?>;">
+						<a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(<?php echo base_url('assets/images/gallery-2.jpg)'); ?>;">
 							<div class="icon mb-4 d-flex align-items-center justify-content-center">
     						<span class="icon-search"></span>
     					</div>
 						</a>
 					</div>
 					<div class="col-md-3 ftco-animate">
-						<a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(<?php echo base_url('assets/gambar/gallery-3.jpg)'); ?>;">
+						<a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(<?php echo base_url('assets/images/gallery-3.jpg)'); ?>;">
 							<div class="icon mb-4 d-flex align-items-center justify-content-center">
     						<span class="icon-search"></span>
     					</div>
 						</a>
 					</div>
 					<div class="col-md-3 ftco-animate">
-						<a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(<?php echo base_url('assets/gambar/gallery-4.jpg)'); ?>;">
+						<a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(<?php echo base_url('assets/images/gallery-4.jpg)'); ?>;">
 							<div class="icon mb-4 d-flex align-items-center justify-content-center">
     						<span class="icon-search"></span>
     					</div>
@@ -368,7 +368,7 @@
 		              	<div class="row">
 		              		<div class="col-md-4 text-center">
 		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(<?php echo base_url('assets/gambar/dish-1.jpg)'); ?>;"></a>
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(<?php echo base_url('assets/images/dish-1.jpg)'); ?>;"></a>
 		              				<div class="text">
 		              					<h3><a href="#">Grilled Beef</a></h3>
 		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
@@ -379,7 +379,7 @@
 		              		</div>
 		              		<div class="col-md-4 text-center">
 		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(<?php echo base_url('assets/gambar/dish-2.jpg)'); ?>;"></a>
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(<?php echo base_url('assets/images/dish-2.jpg)'); ?>;"></a>
 		              				<div class="text">
 		              					<h3><a href="#">Grilled Beef</a></h3>
 		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
@@ -390,7 +390,7 @@
 		              		</div>
 		              		<div class="col-md-4 text-center">
 		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(<?php echo base_url('assets/gambar/dish-3.jpg)'); ?>;"></a>
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(<?php echo base_url('assets/images/dish-3.jpg)'); ?>;"></a>
 		              				<div class="text">
 		              					<h3><a href="#">Grilled Beef</a></h3>
 		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
@@ -406,7 +406,7 @@
 		                <div class="row">
 		              		<div class="col-md-4 text-center">
 		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-1.jpg);"></a>
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(<?php echo base_url('assets/images/drink-1.jpg)'); ?>;"></a>
 		              				<div class="text">
 		              					<h3><a href="#">Lemonade Juice</a></h3>
 		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
@@ -417,7 +417,7 @@
 		              		</div>
 		              		<div class="col-md-4 text-center">
 		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-2.jpg);"></a>
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(<?php echo base_url('assets/images/drink-2.jpg)'); ?>;"></a>
 		              				<div class="text">
 		              					<h3><a href="#">Pineapple Juice</a></h3>
 		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
@@ -428,7 +428,7 @@
 		              		</div>
 		              		<div class="col-md-4 text-center">
 		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-3.jpg);"></a>
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(<?php echo base_url('assets/images/drink-3.jpg)'); ?>;"></a>
 		              				<div class="text">
 		              					<h3><a href="#">Soda Drinks</a></h3>
 		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
@@ -444,7 +444,7 @@
 		                <div class="row">
 		              		<div class="col-md-4 text-center">
 		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/dessert-1.jpg);"></a>
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(<?php echo base_url('assets/images/dessert-1.jpg)'); ?>;"></a>
 		              				<div class="text">
 		              					<h3><a href="#">Hot Cake Honey</a></h3>
 		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
@@ -455,7 +455,7 @@
 		              		</div>
 		              		<div class="col-md-4 text-center">
 		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/dessert-2.jpg);"></a>
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(<?php echo base_url('assets/images/dessert-2.jpg)'); ?>;"></a>
 		              				<div class="text">
 		              					<h3><a href="#">Hot Cake Honey</a></h3>
 		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
@@ -466,7 +466,7 @@
 		              		</div>
 		              		<div class="col-md-4 text-center">
 		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/dessert-3.jpg);"></a>
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(<?php echo base_url('assets/images/dessert-3.jpg)'); ?>;"></a>
 		              				<div class="text">
 		              					<h3><a href="#">Hot Cake Honey</a></h3>
 		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
@@ -498,7 +498,7 @@
         <div class="row d-flex">
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url(<?php echo base_url('assets/gambar/image_1.jpg)'); ?>;">
+              <a href="blog-single.html" class="block-20" style="background-image: url(<?php echo base_url('assets/images/image_1.jpg)'); ?>;">
               </a>
               <div class="text py-4 d-block">
               	<div class="meta">
@@ -513,7 +513,7 @@
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url(<?php echo base_url('assets/gambar/image_1.jpg)'); ?>;">
+              <a href="blog-single.html" class="block-20" style="background-image: url(<?php echo base_url('assets/images/image_2.jpg)'); ?>;">
               </a>
               <div class="text py-4 d-block">
               	<div class="meta">
